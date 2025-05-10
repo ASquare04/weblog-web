@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar.component";
-import React, { createContext, useEffect, useState, Suspense } from "react"; // Import Suspense here
+import React, { createContext, useEffect, useState, Suspense } from "react"; 
 import { lookInSession } from "./common/session";
 
 const Editor = React.lazy(() => import("./pages/editor.pages"));
